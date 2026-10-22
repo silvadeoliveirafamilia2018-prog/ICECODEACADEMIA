@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Início - CT Caveira</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            border-bottom: 3px solid #f2c500;
+        }
+
+        .navbar .nav-link:hover,
+        .navbar .nav-link.active {
+            color: #f2c500;
+        }
+
+        .btn-amarelo {
+            background-color: #f2c500;
+            color: black !important;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .btn-amarelo:hover {
+            background-color: #d9b000;
+            color: black !important;
+        }
+
+        .destaque {
+            background-color: #212529;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .destaque h1 {
+            font-weight: bold;
+        }
+
+        .destaque p {
+            font-size: 18px;
+        }
+
+        .linha-amarela {
+            width: 100px;
+            border: 2px solid #f2c500;
+            opacity: 1;
+        }
+
+        footer {
+            border-top: 3px solid #f2c500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/logo.png"
+                    alt="Logo CT Caveira"
+                    width="50"
+                    height="50">
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarConteudo"
+                aria-controls="navbarConteudo"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarConteudo">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">
+                            História
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipe.html">
+                            Equipe
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">
+                            Produtos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">
+                            Serviços
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="desenvolvedores.html">
+                            Desenvolvedores
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- DESTAQUE PRINCIPAL -->
+    <section class="destaque">
+        <div class="container">
+
+            <h1>Bem-vindo ao CT Caveira</h1>
+
+            <p class="mt-3">
+                Jiu-jítsu para crianças e adultos, com disciplina,
+                respeito e dedicação dentro e fora do tatame.
+            </p>
+
+            <a href="historia.html"
+                class="btn btn-amarelo px-4 py-2 mt-3">
+                Conheça nossa história
+            </a>
+
+        </div>
+    </section>
+
+    <!-- APRESENTAÇÃO -->
+    <main class="container py-5 text-center">
+
+        <h2 class="fw-bold">Conheça o CT Caveira</h2>
+
+        <hr class="linha-amarela mx-auto">
+
+        <p>
+            Conheça nossa equipe, descubra nossos produtos e veja
+            como o CT Caveira pode fazer parte da sua evolução no jiu-jítsu.
+        </p>
+
+        <!-- BOTÕES INFERIORES -->
+        <div class="mt-4">
+
+            <a href="equipe.html"
+                class="btn btn-amarelo me-2 mb-2">
+                Nossa equipe
+            </a>
+
+            <a href="produtos.html"
+                class="btn btn-amarelo me-2 mb-2">
+                Conheça nossos produtos
+            </a>
+
+            <a href="desenvolvedores.html"
+                class="btn btn-amarelo mb-2">
+                Desenvolvedores
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- RODAPÉ / CONTATO -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <p class="mb-1">
+            CT Caveira - Residencial Righi
+        </p>
+
+        <p class="mb-1">
+            WhatsApp:
+            <a href="https://wa.me/5512991505744"
+                class="text-warning text-decoration-none">
+                (12) 99150-5744
+            </a>
+        </p>
+
+        <p class="mb-0">
+            Instagram:
+            <a href="https://www.instagram.com/ctcaveira.res.righi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-warning text-decoration-none">
+                @ctcaveira.res.righi
+            </a>
+        </p>
+
+    </footer>
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

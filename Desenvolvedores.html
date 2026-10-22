@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desenvolvedores - CT Caveira</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            border-bottom: 3px solid #f2c500;
+        }
+
+        .navbar .nav-link:hover,
+        .navbar .nav-link.active {
+            color: #f2c500;
+        }
+
+        .linha-amarela {
+            width: 100px;
+            border: 2px solid #f2c500;
+            opacity: 1;
+            margin: 15px auto;
+        }
+
+        .foto-desenvolvedor {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card {
+            height: 100%;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            text-align: justify;
+        }
+
+        .btn-amarelo {
+            background-color: #f2c500;
+            color: black !important;
+            border: none;
+        }
+
+        .btn-amarelo:hover {
+            background-color: #d9b000;
+            color: black !important;
+        }
+
+        .rodape {
+            background-color: #212529;
+            color: white;
+            border-top: 3px solid #f2c500;
+        }
+
+        @media (max-width: 576px) {
+            .foto-desenvolvedor {
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/logo.png"
+                    alt="Logo CT Caveira"
+                    width="50"
+                    height="50">
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarConteudo"
+                aria-controls="navbarConteudo"
+                aria-expanded="false"
+                aria-label="Abrir menu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarConteudo">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">
+                            História
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipe.html">
+                            Equipe
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">
+                            Produtos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="desenvolvedores.html">
+                            Desenvolvedores
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+
+        <!-- TÍTULO -->
+        <div class="text-center mb-5">
+
+            <h1 class="fw-bold">Nossa Equipe de Desenvolvedores</h1>
+
+            <hr class="linha-amarela">
+
+            <p>
+                Conheça os integrantes responsáveis pela criação
+                e pelo desenvolvimento do site do CT Caveira.
+            </p>
+
+        </div>
+
+        <div class="row g-4 justify-content-center mb-5">
+
+            <!-- MURILO -->
+            <div class="col-6 col-md-3">
+                <div class="text-center">
+
+                    <img src="imagens/Murilo.jpeg"
+                        alt="Foto de Murilo"
+                        class="foto-desenvolvedor">
+
+                    <h5 class="mt-3 fw-bold">Murilo</h5>
+
+                </div>
+            </div>
+
+            <!-- ENZO PAOLO -->
+            <div class="col-6 col-md-3">
+                <div class="text-center">
+
+                    <img src="imagens/Enzo.jpeg"
+                        alt="Foto de Enzo Paolo"
+                        class="foto-desenvolvedor">
+
+                    <h5 class="mt-3 fw-bold">Enzo Paolo</h5>
+
+                </div>
+            </div>
+
+            <!-- THALES -->
+            <div class="col-6 col-md-3">
+                <div class="text-center">
+
+                    <img src="imagens/thales.jpeg"
+                        alt="Foto de Thales"
+                        class="foto-desenvolvedor">
+
+                    <h5 class="mt-3 fw-bold">Thales</h5>
+
+                </div>
+            </div>
+
+            <!-- GUILHERME PACHECO -->
+            <div class="col-6 col-md-3">
+                <div class="text-center">
+
+                    <img src="imagens/Guilherme.jpeg"
+                        alt="Foto de Guilherme Pacheco"
+                        class="foto-desenvolvedor">
+
+                    <h5 class="mt-3 fw-bold">Guilherme Pacheco</h5>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FUNÇÕES DOS DESENVOLVEDORES -->
+        <div class="text-center mb-4">
+
+            <h2 class="fw-bold">Participação no Projeto</h2>
+
+            <hr class="linha-amarela">
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- MURILO -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h5 class="card-title text-center">Murilo</h5>
+
+                        <p class="card-text">
+                            Participou da organização do site e da criação
+                            das páginas, ajudando a manter o conteúdo
+                            organizado e fácil de acessar.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ENZO PAOLO -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h5 class="card-title text-center">Enzo Paolo</h5>
+
+                        <p class="card-text">
+                            Ajudou na estrutura e na personalização visual
+                            do site, colaborando com a organização dos
+                            textos, as cores e a aparência das páginas.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- THALES -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h5 class="card-title text-center">Thales</h5>
+
+                        <p class="card-text">
+                            Colaborou na organização da navegação,
+                            ajudando a configurar os links entre
+                            as páginas do site.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- GUILHERME PACHECO -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h5 class="card-title text-center">
+                            Guilherme Pacheco
+                        </h5>
+
+                        <p class="card-text">
+                            Auxiliou na revisão dos conteúdos e na
+                            verificação das páginas, contribuindo
+                            para a organização e o funcionamento
+                            do site.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- VOLTAR AO INÍCIO -->
+        <div class="text-center mt-5">
+
+            <a href="index.html" class="btn btn-amarelo px-4 py-2">
+                Voltar ao início
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape text-center py-4 mt-4">
+
+        <h4>CT Caveira</h4>
+
+        <p class="mb-1">
+            Site desenvolvido como projeto escolar.
+        </p>
+
+        <p class="mb-0">
+            Desenvolvedores: Murilo, Enzo Paolo, Thales e Guilherme Pacheco.
+        </p>
+
+    </footer>
+
+    <!-- SCRIPT DO BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
